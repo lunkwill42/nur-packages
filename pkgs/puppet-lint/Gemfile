@@ -1,0 +1,4 @@
+source 'https://rubygems.org' do
+  gem 'puppet-lint'
+  gem 'voxpupuli-puppet-lint-plugins'
+end

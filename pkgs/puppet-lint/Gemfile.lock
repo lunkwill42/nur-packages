@@ -1,0 +1,70 @@
+GEM
+  specs:
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    puppet-lint (4.2.0)
+    puppet-lint-absolute_classname-check (4.0.0)
+      puppet-lint (>= 3.0, < 5)
+    puppet-lint-anchor-check (2.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-file_ensure-check (2.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-leading_zero-check (2.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-lookup_in_parameter-check (2.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-manifest_whitespace-check (0.3.0)
+      puppet-lint (>= 1.0, < 5)
+    puppet-lint-optional_default-check (2.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-param-docs (2.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-param-types (2.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-params_empty_string-check (2.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-resource_reference_syntax (2.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-strict_indent-check (3.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-topscope-variable-check (2.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-trailing_comma-check (2.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-unquoted_string-check (3.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-variable_contains_upcase (2.0.0)
+      puppet-lint (>= 3, < 5)
+    puppet-lint-version_comparison-check (2.0.0)
+      puppet-lint (>= 3, < 5)
+    voxpupuli-puppet-lint-plugins (5.0.0)
+      puppet-lint (~> 4.0)
+      puppet-lint-absolute_classname-check (~> 4.0)
+      puppet-lint-anchor-check (~> 2.0)
+      puppet-lint-file_ensure-check (~> 2.0)
+      puppet-lint-leading_zero-check (~> 2.0)
+      puppet-lint-lookup_in_parameter-check (~> 2.0)
+      puppet-lint-manifest_whitespace-check (~> 0.3, < 1.0.0)
+      puppet-lint-optional_default-check (~> 2.0)
+      puppet-lint-param-docs (~> 2.0)
+      puppet-lint-param-types (~> 2.0)
+      puppet-lint-params_empty_string-check (~> 2.0)
+      puppet-lint-resource_reference_syntax (~> 2.0)
+      puppet-lint-strict_indent-check (~> 3.0)
+      puppet-lint-topscope-variable-check (~> 2.0)
+      puppet-lint-trailing_comma-check (~> 2.0)
+      puppet-lint-unquoted_string-check (~> 3.0)
+      puppet-lint-variable_contains_upcase (~> 2.0)
+      puppet-lint-version_comparison-check (~> 2.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  puppet-lint!
+  voxpupuli-puppet-lint-plugins!
+
+BUNDLED WITH
+   2.4.13

@@ -1,7 +1,4 @@
 GEM
-  specs:
-
-GEM
   remote: https://rubygems.org/
   specs:
     puppet-lint (4.2.0)
@@ -63,8 +60,8 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  puppet-lint!
-  voxpupuli-puppet-lint-plugins!
+  puppet-lint
+  voxpupuli-puppet-lint-plugins
 
 BUNDLED WITH
    2.4.13
